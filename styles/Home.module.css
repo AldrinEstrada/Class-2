@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: rgb(244, 99, 239);
 }
 
 .description {
@@ -247,6 +248,7 @@
       rgb(var(--background-end-rgb)) 40%
     );
     z-index: 1;
+    
   }
 }
 

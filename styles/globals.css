@@ -5,6 +5,14 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+    --violet: rgb(148, 73, 172);
+    --blue: rgb(35, 95, 223);
+    --black: #000;
+    --pink:  rgb(233, 6, 195);
+    --yellow: rgb(244, 221, 50);
+    --white: rgb(255, 255, 255);
+
+
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -100,8 +108,26 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  color: var(--yellow)
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: var(--blue);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+}
+
+.Name {
+  font-family: Verdana;
+  font-size: 80px;
+  color: var(--white);
 }
